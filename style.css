@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100vh;
+}
+div{
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 300ms;
+}
+span{
+    mix-blend-mode: difference;
+    color: #fff;
+    font-size: min(30vw, 450px);
+    font-family: "Barlow Condensed", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    font-weight: 100;
+    font-style: italic;
+}
