@@ -16,7 +16,7 @@ function updateTime() {
     
     const aspectBox = document.getElementById('aspect-box');
     const width = hours * 10;
-    const height = seconds * 10;
+    const height = minutes * 10;
 
     const aspectRatio = width / height;
     if (aspectRatio > 1) {
