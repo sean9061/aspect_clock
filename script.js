@@ -27,5 +27,10 @@ function updateTime() {
         aspectBox.style.width = `${(maxSize * aspectRatio)}vw`;
     }
 }
+
+// document.getElementById('menu-button').getElementById('click', function(){
+
+// });
+
 setInterval(updateTime, 1000);
 updateTime();

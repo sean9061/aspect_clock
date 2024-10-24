@@ -1,4 +1,5 @@
 body{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,9 +18,26 @@ div{
 span{
     mix-blend-mode: difference;
     color: #fff;
-    font-size: min(30vw, 450px);
+    font-size: min(35vw, 450px);
     font-family: "Barlow Condensed", sans-serif;
     /* font-family: "Montserrat", sans-serif; */
     font-weight: 100;
     font-style: italic;
+}
+button{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    transform: translate(50%, -50%);
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+    transition: 300ms;
+    cursor: pointer;
+}
+button:hover{
+    width: 50px;
+    height: 50px;
 }
